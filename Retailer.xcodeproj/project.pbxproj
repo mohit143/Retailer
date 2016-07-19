@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52D8D731D08224A009371B2 /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A52D8D721D08224A009371B2 /* CommonFunctions.m */; };
+		A54430F71D07F2B600883D62 /* ProductDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A54430F61D07F2B600883D62 /* ProductDetailTableViewCell.m */; };
+		A55920701D06BD9D00FC7C1F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A559206F1D06BD9D00FC7C1F /* HomeViewController.m */; };
+		A55920771D06E43900FC7C1F /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55920761D06E43900FC7C1F /* ProductDetailViewController.m */; };
+		A559207C1D06E6F400FC7C1F /* ProductListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A559207B1D06E6F400FC7C1F /* ProductListTableViewCell.m */; };
+		A55920811D06E71700FC7C1F /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A55920801D06E71700FC7C1F /* CategoryCollectionViewCell.m */; };
+		A55920851D06E73B00FC7C1F /* MyCartTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A55920841D06E73B00FC7C1F /* MyCartTableViewCell.m */; };
+		A559208A1D06EA2D00FC7C1F /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = A55920891D06EA2D00FC7C1F /* Product.m */; };
+		A55920901D06FAB600FC7C1F /* MyCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A559208F1D06FAB600FC7C1F /* MyCartViewController.m */; };
+		A55920941D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A55920931D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.m */; };
+		A5D8F5181D0C3781005030F4 /* Retailer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8F5171D0C3781005030F4 /* Retailer.m */; };
+		A5D8F51B1D0C48B4005030F4 /* MyCartViewController+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8F51A1D0C48B4005030F4 /* MyCartViewController+Testing.m */; };
+		A5D8F51E1D0C4968005030F4 /* ProductDetailViewController+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8F51D1D0C4968005030F4 /* ProductDetailViewController+Testing.m */; };
 		A5F6FE131D06AD6C00693BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6FE121D06AD6C00693BBC /* main.m */; };
 		A5F6FE161D06AD6C00693BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6FE151D06AD6C00693BBC /* AppDelegate.m */; };
-		A5F6FE191D06AD6C00693BBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F6FE181D06AD6C00693BBC /* ViewController.m */; };
 		A5F6FE1C1D06AD6C00693BBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F6FE1A1D06AD6C00693BBC /* Main.storyboard */; };
 		A5F6FE1E1D06AD6C00693BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F6FE1D1D06AD6C00693BBC /* Assets.xcassets */; };
 		A5F6FE211D06AD6C00693BBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F6FE1F1D06AD6C00693BBC /* LaunchScreen.storyboard */; };
@@ -35,12 +47,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A52D8D711D08224A009371B2 /* CommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctions.h; sourceTree = "<group>"; };
+		A52D8D721D08224A009371B2 /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunctions.m; sourceTree = "<group>"; };
+		A54430F51D07F2B600883D62 /* ProductDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailTableViewCell.h; sourceTree = "<group>"; };
+		A54430F61D07F2B600883D62 /* ProductDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailTableViewCell.m; sourceTree = "<group>"; };
+		A559206E1D06BD9D00FC7C1F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A559206F1D06BD9D00FC7C1F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A55920751D06E43900FC7C1F /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		A55920761D06E43900FC7C1F /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		A559207A1D06E6F400FC7C1F /* ProductListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListTableViewCell.h; sourceTree = "<group>"; };
+		A559207B1D06E6F400FC7C1F /* ProductListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListTableViewCell.m; sourceTree = "<group>"; };
+		A559207F1D06E71700FC7C1F /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		A55920801D06E71700FC7C1F /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		A55920831D06E73B00FC7C1F /* MyCartTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCartTableViewCell.h; sourceTree = "<group>"; };
+		A55920841D06E73B00FC7C1F /* MyCartTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCartTableViewCell.m; sourceTree = "<group>"; };
+		A55920881D06EA2D00FC7C1F /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		A55920891D06EA2D00FC7C1F /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		A559208C1D06F19500FC7C1F /* macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		A559208E1D06FAB600FC7C1F /* MyCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCartViewController.h; sourceTree = "<group>"; };
+		A559208F1D06FAB600FC7C1F /* MyCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCartViewController.m; sourceTree = "<group>"; };
+		A55920921D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+UINavigationController_CustomAnimation.h"; sourceTree = "<group>"; };
+		A55920931D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+UINavigationController_CustomAnimation.m"; sourceTree = "<group>"; };
+		A5D8F5171D0C3781005030F4 /* Retailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Retailer.m; sourceTree = "<group>"; };
+		A5D8F5191D0C48B4005030F4 /* MyCartViewController+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyCartViewController+Testing.h"; sourceTree = "<group>"; };
+		A5D8F51A1D0C48B4005030F4 /* MyCartViewController+Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyCartViewController+Testing.m"; sourceTree = "<group>"; };
+		A5D8F51C1D0C4968005030F4 /* ProductDetailViewController+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProductDetailViewController+Testing.h"; sourceTree = "<group>"; };
+		A5D8F51D1D0C4968005030F4 /* ProductDetailViewController+Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ProductDetailViewController+Testing.m"; sourceTree = "<group>"; };
 		A5F6FE0E1D06AD6C00693BBC /* Retailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F6FE121D06AD6C00693BBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5F6FE141D06AD6C00693BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5F6FE151D06AD6C00693BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5F6FE171D06AD6C00693BBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5F6FE181D06AD6C00693BBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A5F6FE1B1D06AD6C00693BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5F6FE1D1D06AD6C00693BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F6FE201D06AD6C00693BBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +114,161 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52D8D701D082236009371B2 /* CommonFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				A52D8D711D08224A009371B2 /* CommonFunctions.h */,
+				A52D8D721D08224A009371B2 /* CommonFunctions.m */,
+			);
+			name = CommonFunctions;
+			sourceTree = "<group>";
+		};
+		A54430F41D07F28600883D62 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A54430F51D07F2B600883D62 /* ProductDetailTableViewCell.h */,
+				A54430F61D07F2B600883D62 /* ProductDetailTableViewCell.m */,
+			);
+			name = ProductDetail;
+			sourceTree = "<group>";
+		};
+		A559206B1D06BD5200FC7C1F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A5F6FE141D06AD6C00693BBC /* AppDelegate.h */,
+				A5F6FE151D06AD6C00693BBC /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A559206C1D06BD7800FC7C1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A559208D1D06FA9900FC7C1F /* MyCart */,
+				A55920711D06CEDD00FC7C1F /* ProductDetail */,
+				A559206D1D06BD8B00FC7C1F /* Home */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A559206D1D06BD8B00FC7C1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A559206E1D06BD9D00FC7C1F /* HomeViewController.h */,
+				A559206F1D06BD9D00FC7C1F /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A55920711D06CEDD00FC7C1F /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A55920751D06E43900FC7C1F /* ProductDetailViewController.h */,
+				A55920761D06E43900FC7C1F /* ProductDetailViewController.m */,
+				A5D8F51C1D0C4968005030F4 /* ProductDetailViewController+Testing.h */,
+				A5D8F51D1D0C4968005030F4 /* ProductDetailViewController+Testing.m */,
+			);
+			name = ProductDetail;
+			sourceTree = "<group>";
+		};
+		A55920781D06E6C800FC7C1F /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A54430F41D07F28600883D62 /* ProductDetail */,
+				A55920821D06E72700FC7C1F /* MyCart */,
+				A55920791D06E6DA00FC7C1F /* Home */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		A55920791D06E6DA00FC7C1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A559207A1D06E6F400FC7C1F /* ProductListTableViewCell.h */,
+				A559207B1D06E6F400FC7C1F /* ProductListTableViewCell.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A559207D1D06E6FE00FC7C1F /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A559207E1D06E70700FC7C1F /* Home */,
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		A559207E1D06E70700FC7C1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A559207F1D06E71700FC7C1F /* CategoryCollectionViewCell.h */,
+				A55920801D06E71700FC7C1F /* CategoryCollectionViewCell.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A55920821D06E72700FC7C1F /* MyCart */ = {
+			isa = PBXGroup;
+			children = (
+				A55920831D06E73B00FC7C1F /* MyCartTableViewCell.h */,
+				A55920841D06E73B00FC7C1F /* MyCartTableViewCell.m */,
+			);
+			name = MyCart;
+			sourceTree = "<group>";
+		};
+		A55920861D06EA0500FC7C1F /* ModelFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A55920871D06EA1B00FC7C1F /* Home */,
+			);
+			name = ModelFiles;
+			sourceTree = "<group>";
+		};
+		A55920871D06EA1B00FC7C1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A55920881D06EA2D00FC7C1F /* Product.h */,
+				A55920891D06EA2D00FC7C1F /* Product.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A559208B1D06F18100FC7C1F /* HeaderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A559208C1D06F19500FC7C1F /* macros.h */,
+			);
+			name = HeaderFiles;
+			sourceTree = "<group>";
+		};
+		A559208D1D06FA9900FC7C1F /* MyCart */ = {
+			isa = PBXGroup;
+			children = (
+				A559208E1D06FAB600FC7C1F /* MyCartViewController.h */,
+				A559208F1D06FAB600FC7C1F /* MyCartViewController.m */,
+				A5D8F5191D0C48B4005030F4 /* MyCartViewController+Testing.h */,
+				A5D8F51A1D0C48B4005030F4 /* MyCartViewController+Testing.m */,
+			);
+			name = MyCart;
+			sourceTree = "<group>";
+		};
+		A55920911D06FD9A00FC7C1F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A55920951D06FDBA00FC7C1F /* UiNavigation+Animation */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		A55920951D06FDBA00FC7C1F /* UiNavigation+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A55920921D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.h */,
+				A55920931D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.m */,
+			);
+			name = "UiNavigation+Animation";
+			sourceTree = "<group>";
+		};
 		A5F6FE051D06AD6C00693BBC = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +292,14 @@
 		A5F6FE101D06AD6C00693BBC /* Retailer */ = {
 			isa = PBXGroup;
 			children = (
-				A5F6FE141D06AD6C00693BBC /* AppDelegate.h */,
-				A5F6FE151D06AD6C00693BBC /* AppDelegate.m */,
-				A5F6FE171D06AD6C00693BBC /* ViewController.h */,
-				A5F6FE181D06AD6C00693BBC /* ViewController.m */,
+				A52D8D701D082236009371B2 /* CommonFunctions */,
+				A55920911D06FD9A00FC7C1F /* Categories */,
+				A559208B1D06F18100FC7C1F /* HeaderFiles */,
+				A55920861D06EA0500FC7C1F /* ModelFiles */,
+				A559207D1D06E6FE00FC7C1F /* CollectionViewCell */,
+				A55920781D06E6C800FC7C1F /* TableViewCells */,
+				A559206C1D06BD7800FC7C1F /* ViewControllers */,
+				A559206B1D06BD5200FC7C1F /* AppDelegate */,
 				A5F6FE1A1D06AD6C00693BBC /* Main.storyboard */,
 				A5F6FE1D1D06AD6C00693BBC /* Assets.xcassets */,
 				A5F6FE1F1D06AD6C00693BBC /* LaunchScreen.storyboard */,
@@ -127,6 +322,7 @@
 			children = (
 				A5F6FE2B1D06AD6C00693BBC /* RetailerTests.m */,
 				A5F6FE2D1D06AD6C00693BBC /* Info.plist */,
+				A5D8F5171D0C3781005030F4 /* Retailer.m */,
 			);
 			path = RetailerTests;
 			sourceTree = "<group>";
@@ -270,9 +466,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F6FE191D06AD6C00693BBC /* ViewController.m in Sources */,
+				A55920811D06E71700FC7C1F /* CategoryCollectionViewCell.m in Sources */,
 				A5F6FE161D06AD6C00693BBC /* AppDelegate.m in Sources */,
+				A5D8F51E1D0C4968005030F4 /* ProductDetailViewController+Testing.m in Sources */,
+				A52D8D731D08224A009371B2 /* CommonFunctions.m in Sources */,
+				A5D8F51B1D0C48B4005030F4 /* MyCartViewController+Testing.m in Sources */,
 				A5F6FE131D06AD6C00693BBC /* main.m in Sources */,
+				A55920851D06E73B00FC7C1F /* MyCartTableViewCell.m in Sources */,
+				A54430F71D07F2B600883D62 /* ProductDetailTableViewCell.m in Sources */,
+				A55920901D06FAB600FC7C1F /* MyCartViewController.m in Sources */,
+				A559207C1D06E6F400FC7C1F /* ProductListTableViewCell.m in Sources */,
+				A559208A1D06EA2D00FC7C1F /* Product.m in Sources */,
+				A55920701D06BD9D00FC7C1F /* HomeViewController.m in Sources */,
+				A55920771D06E43900FC7C1F /* ProductDetailViewController.m in Sources */,
+				A55920941D06FDB400FC7C1F /* UINavigationController+UINavigationController_CustomAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +488,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F6FE2C1D06AD6C00693BBC /* RetailerTests.m in Sources */,
+				A5D8F5181D0C3781005030F4 /* Retailer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +621,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Retailer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mohit.Retailer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +634,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = Retailer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mohit.Retailer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +708,7 @@
 				A5F6FE3D1D06AD6C00693BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5F6FE3E1D06AD6C00693BBC /* Build configuration list for PBXNativeTarget "RetailerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +717,7 @@
 				A5F6FE401D06AD6C00693BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5F6FE411D06AD6C00693BBC /* Build configuration list for PBXNativeTarget "RetailerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +726,7 @@
 				A5F6FE431D06AD6C00693BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
